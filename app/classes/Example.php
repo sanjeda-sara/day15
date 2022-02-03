@@ -14,7 +14,7 @@ class Example
     {
 //        echo "hello world";
 //        $firstNumber = 20;
-        $this->firstName = "Habibur ";
+        $this->firstName = "Habibur";
         $this->lastName = "Rahman";
 
         echo $this->firstNumber;
@@ -23,7 +23,8 @@ class Example
         echo '<br/>';
         echo $this->lastName;
         echo '<br/>';
-        echo $this->firstName.$this->lastName;
+        echo $this->firstName.' '.$this->lastName;
+        echo $this->firstName.'&nbsp;&nbsp;&nbsp'.$this->lastName;
     }
 
 }
