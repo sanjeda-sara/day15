@@ -1,0 +1,166 @@
+namespace creates a virtual directory
+
+oop is a structured model of php
+-class, property, method, object
+-these 4 are mandatory in OOP
+
+-open terminal
+write the following:
+composer dump-autoload
+output:
+Generating autoload files
+Generated autoload files
+composer must be correct!!!
+else error!
+--> in here
+1. no symbols are allowed!
+2. cannot start with a capital word
+
+
+
+composer.json
+---------------
+##composer.json- php's dependency manager
+the codes inside are just for introducing the project, ie,
+name --> project name
+type --> "project" because its a project
+description --> about the project (details)
+license --> mit, can be blank
+keyword[] --> array - specific works about project for google se
+require --> Information about 3rd party packages to be used must be here, i.e, their name, version etcetera
+require-dev --> if 3rd party package changes internal structure, they'll stay here
+autoload --> 
+
+
+app -> where classes are stored
+App -> composer psr-4 App -- for namespace
+
+
+index.php
+----------
+$example = new \App\classes\Example();
+"new" keyword creates a new object
+"=" assigns
+
+
+
+
+
+
+
+
+
+
+4 method for linking php files
+require
+require-once
+include
+include once
+
+
+each class have 2 things- property and method
+property --> variable
+method --> function
+eg-
+public $firstNumber;
+    public $firstName;
+    public $lastName;
+these are property
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+eg-
+ public function index()
+    {
+        echo "hello world";
+    }
+these are methods
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+******** 3 major rules for variable: *********
+-------------------------------------------------
+1. starts with $ sign
+2. A-Z, a-z, 0-9, _ ()
+3. no numbers at the beginning
+
+
+**** Standard Rules for Variable Naming:
+-------------------------------------------
+1. Start with small letter
+2. Meaningful
+3. Readable
+-------------------------------------------
+
+echo $this -> an own class object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
